@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   #get 'welcome/index'
   
-  resources :user
+  resources :users
   resources :cart
   
   root 'welcome#index'
